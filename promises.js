@@ -42,6 +42,7 @@ function createPost(post) {
 //     .then(getPosts)
 //     .catch(err => console.log(err));
 
+
 // Async / await is a way of handling responses
 /*
 `If you use the async keyword before a function definition, you can then use
@@ -49,7 +50,6 @@ function createPost(post) {
  in a non-blocking way until the promise settles. If the promise fulfills, 
  you get the value back. If the promise rejects, the rejected value is thrown.`
 */ 
-
 // has to be labeled async. Await waits for synchronous process to be complete.
 async function init() {
     // we wait for createPost to be completed before we move on to the next 
